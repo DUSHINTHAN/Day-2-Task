@@ -1,0 +1,35 @@
+TASK 1:
+
+DIFFERENCE BETWEEN DOCUMENT AND WINDOWS OBJECT:
+
+DOCUMENT OBJECT:
+
+JavaScript Document object is an object that provides access to all HTML elements of a document. When an HTML document is loaded into a browser window, then it becomes a document object.
+
+The document object stores the elements of an HTML document, such as HTML, HEAD, BODY, and other HTML tags as objects.
+
+A document object is a child object of the Window object, which refers to the browser.
+
+You can access a document object either using window.document property or using object directly.
+
+Suppose you have created a FORM in an HTML document using the FORM element and added some text fields and Buttons on the Form. On Submitting the Form you want to validate the input or display input on another page. In this situation, you can use a document object which is a child object of the window object. Using the document object, you can access the elements of the form and validate the Input.
+
+The Document Object provides different collection elements, such as anchor and Links which helps you to count the number of specific elements on a form.
+
+The Document Object also provides various properties such as URL, bgcolor, etc. which will allow you to retrieve the details of a document and various methods such as open(), close(), write(), getElementById(), getElementByName(), etc. which allow you to perform various tasks like opening an HTML document to display output and writing a text on Web Page.
+
+The Document Object also allows you to create cookies for a webpage by providing a property named cookie. A cookie stores information about the user's computer, which helps in accessing visited websites.
+
+WINDOWS OBJECT:
+
+JavaScript Window is a global Interface (object type) which is used to control the browser window lifecycle and perform various operations on it.
+
+A global variable window, which represents the current browser window in which the code is running, is available in our JavaScript code and can be directly accessed by using window literal.
+
+It represents a window containing a webpage which in turn is represented by the document object. A window can be a new window, a new tab, a frame set or individual frame created with JavaScript.
+
+In case of multi tab browser, a window object represents a single tab, but some of its properties like innerHeight, innerWidth and methods like resizeTo() will affect the whole browser window.
+
+Whenever you open a new window or tab, a window object representing that window/tab is automatically created.
+
+The properties of a window object are used to retrieve the information about the window that is currently open, whereas its methods are used to perform specific tasks like opening, maximizing, minimizing the window, etc.	
